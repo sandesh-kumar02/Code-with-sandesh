@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="first.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/logo.png.png" alt="logo" />
+          <div class="title">
+            <h2>creation</h2>
+          </div>
+        </div>
+        <ul class="ul-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="left-content">
+          <h2>
+            Hi I am <span class="name"><i>sandesh</i> </span> kumar
+          </h2>
+          <h3>Web developer</h3>
+          <span id="element"></span>
+          <!--  -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            veritatis ipsam iste. Cumque facilis assumenda odit tempora dolore
+            non ipsum!
+          </p>
+          <div class="follow">
+            <button class="btn">
+              <a
+                href="https://github.com/sandesh-kumar02/Code-with-sandesh"
+                target="_blank"
+                >Follow Me!</a
+              >
+            </button>
+
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+        <div class="right-image">
+          <img src="assets/main-logo.png.png" alt="main-logo.png" />
+        </div>
+      </div>
+      <div class="do-container">
+        <div class="i-do">
+          <h2>what I DO</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="item-container">
+          <div class="child">
+            <a href="#"><i class="fa-brands fa-html5"></i></a>
+            <h2>HTML developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              ipsam quidem minus earum nesciunt porro eveniet ipsum natus, dicta
+              vel!
+            </p>
+          </div>
+          <div class="child">
+            <a href="#"><i class="fa-brands fa-css3"></i></a>
+            <h2>Css developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              ipsam quidem minus earum nesciunt porro eveniet ipsum natus, dicta
+              vel!
+            </p>
+          </div>
+          <div class="child">
+            <a href="@"><i class="fa-brands fa-js"></i></a>
+            <h2>Jvascript developer</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              ipsam quidem minus earum nesciunt porro eveniet ipsum natus, dicta
+              vel!
+            </p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="box">
+          <p>
+            <span class="footer-content">portfolioSK.</span>Powered by
+            <span class="footer-content">skCreation.com</span>
+          </p>
+          <div class="follow-content">
+            <i class="fa-brands fa-facebook footer-logo"></i>
+            <i class="fa-brands fa-github footer-logo"></i>
+            <i class="fa-brands fa-twitter footer-logo"></i>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "HTML developer",
+          "&amp; CSS developer",
+          "&amp; Jvascript developer",
+          "&amp; C++ DSA",
+        ],
+        typeSpeed: 50,
+        backspeed: 25,
+        loop: true,
+        showCursor: false,
+      });
+    </script>
+  </body>
+</html>
